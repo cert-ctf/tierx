@@ -28,7 +28,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"openTab",
+                 "name":"openWebsite",
                  "type":"string",
                  "value":"https:\/\/ctfd.gematik.de\/workadventure\/site\/tierx\/index.html"
                 }],
