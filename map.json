@@ -1371,7 +1371,7 @@
          "name":"base",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -1419,7 +1419,7 @@
          "name":"garden",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":70,
          "x":0,
          "y":0
@@ -1479,7 +1479,7 @@
          "name":"carpet",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -1491,7 +1491,7 @@
          "name":"carpet2",
          "opacity":1,
          "type":"tilelayer",
-         "visible":true,
+         "visible":false,
          "width":70,
          "x":0,
          "y":0
@@ -1699,7 +1699,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":190,
+ "nextlayerid":191,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
