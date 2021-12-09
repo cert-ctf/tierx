@@ -1792,32 +1792,55 @@
          "name":"floorLayer",
          "objects":[],
          "opacity":1,
-         "properties":[
+         "type":"objectgroup",
+         "visible":true,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "id":200,
+         "name":"configuration",
+         "objects":[
                 {
-                 "name":"closeLayer",
-                 "type":"string",
-                 "value":"gate_closed"
-                }, 
-                {
-                 "name":"default",
-                 "type":"bool",
-                 "value":false
-                }, 
-                {
+                 "height":0,
+                 "id":3,
                  "name":"door",
-                 "type":"bool",
-                 "value":true
-                }, 
-                {
-                 "name":"openLayer",
-                 "type":"string",
-                 "value":"gate_open"
-                }, 
-                {
-                 "name":"persist",
-                 "type":"bool",
-                 "value":true
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"closeLayer",
+                         "type":"string",
+                         "value":"gate_closed"
+                        }, 
+                        {
+                         "name":"default",
+                         "type":"bool",
+                         "value":false
+                        }, 
+                        {
+                         "name":"door",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"openLayer",
+                         "type":"string",
+                         "value":"gate_open"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":462,
+                 "y":972
                 }],
+         "opacity":1,
          "type":"objectgroup",
          "visible":true,
          "x":0,
@@ -1859,8 +1882,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":200,
- "nextobjectid":1,
+ "nextlayerid":201,
+ "nextobjectid":4,
  "orientation":"orthogonal",
  "properties":[
         {
