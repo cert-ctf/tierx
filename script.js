@@ -1,9 +1,3 @@
-//Init
-WA.onInit().then(() => {
-    WA.room.hideLayer('gate_open');
-});
-
-//Open Door
 WA.room.onEnterLayer('door_open').subscribe(() => {
 	if (WA.player.tags.includes('admin'))
 	{
@@ -12,8 +6,7 @@ WA.room.onEnterLayer('door_open').subscribe(() => {
 	}
 });
 
-//Close Door
-WA.room.onEnterLayer('door_close').subscribe(() => {
+WA.room.onEnterLayer('door_closed').subscribe(() => {
 	if (WA.player.tags.includes('admin'))
 	{
 		WA.room.hideLayer('gate_open');
